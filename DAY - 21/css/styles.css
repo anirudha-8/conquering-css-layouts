@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+:root {
+    --ff-montserrat: 'Montserrat', sans-serif;
+    --ff-oswald: 'Oswald', sans-serif;
+
+    --clr-dark: #2E323F;
+    --clr-light-dark: #3B4050;
+    --clr-extra-light-dark: #6F737F;
+    --clr-gray: #f7f0f0dc;
+    --clr-light: #FFFFFF;
+    --clr-accent: #A59678;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+body {
+    margin: 0;
+}
+
+body {
+    font-family: var(--ff-montserrat);
+    font-weight: 400;    
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--ff-oswald);
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: var(--clr-light);
+    font-size: 2.5rem;
+}
+
+h3,
+h4,
+span {
+    color: var(--clr-accent);
+}
+
+header,
+section,
+footer {
+    padding: 3rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul > * + * {
+    margin-left: 0.5rem;
+}
+
+a {
+    color: var(--clr-light);
+    font-size: .7rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media (min-width: 550px) {
+    a {
+        font-size: 1rem;
+    }
+
+    ul > * + * {
+        margin-left: 1.2em;
+    }
+}
+
+img.main-img {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.container {
+    width: min(90%, 60rem);
+    margin-inline: auto;
+}
+
+.btn {
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    font-weight: 700;
+    padding: .3em .8em;
+    border: none;
+    border-radius: 1.5em;
+    line-height: 1.4;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.bg-gray {
+    background-color: var(--clr-gray);
+}
+
+.bg-purple {
+    background-color: var(--clr-light-dark);
+    color: var(--clr-light);
+    font-size: .8rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.bg-purple--extra {
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+nav {
+    background-color: var(--clr-dark);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p {
+    color: var(--clr-light);
+    font-weight: 200;
+}
+
+footer h4 {
+    margin-top: 2rem;
+}
+
+@media (min-width: 750px) {
+    .split {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        text-align: center;
+    }
+
+    footer .split {
+        align-items: flex-start;
+    }
+    
+    .split > * + * {
+        margin-left: 5rem;
+    }
+
+    header {
+        padding: 10rem;
+    }
+
+    section,
+    footer {
+        padding: 5rem;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .bg-purple--extra {
+        width: 20rem;
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito+Sans:wght@400;500;600&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    background-color: #23424A;
+    color: #fff;
+}
+
+.container {
+    padding: 100px;
+    width: 55%;
+}
+
+.hero__text h1 {
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+.hero__text p {
+    font-size: 21px;
+    margin-bottom: 2rem;
+}
+
+
+.hero__text a {
+    background-color: #38CFD9;
+    padding: .8em 1.5em;
+    letter-spacing: .1rem;
+    border-radius: 1rem;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}

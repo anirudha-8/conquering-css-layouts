@@ -1,0 +1,135 @@
+/* roboto font family link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* playfair display font family link */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;800;900&display=swap');
+
+
+
+:root {
+    --light: #F3EED9;
+    --brown: #824936;
+    --dark: #222C2A;
+
+    --roboto_ff: 'Roboto', sans-serif;
+    --playfair_ff: 'Playfair Display', serif;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-family: var(--roboto_ff);
+    font-size: 2.1rem;
+    margin: 2rem 0;
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    font-family: var(--playfair_ff);
+    line-height: 1.1;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 85%;
+    max-width: 1128px;
+    margin: 0 auto 0
+}
+
+section {
+    padding: 4em 0;
+}
+
+.section__title {
+    font-size: 3.6rem;
+    color: var(--light);
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.section__title-dark {
+    color: var(--brown);
+    text-align: center;
+}
+
+
+
+
+/* ========== INTRO DIV STYLING ========== */
+.intro {
+    background-color: var(--light);
+    min-height: 660px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.intro__para {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-bottom: .25em;
+}
+
+.intro__title {
+    font-size: 5rem;
+    color: var(--brown);
+    line-height: 1.1;
+}
+
+
+
+
+/* ========== SECTION - 3 STYLING ========== */
+.section__three {
+    background-color: var(--dark);
+    color: #fff;
+}
+
+
+
+
+/* ========== SECTION - 4 STYLING ========== */
+.section__four {
+    background-color: var(--brown);
+    color: #fff;
+}
+
+
+
+
+/* ========== MEDIA QUERIES FOR LARGE DEVICES ========== */
+
+@media (min-width: 800px) {
+
+    .row {
+        display: flex;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .col + .col {
+        margin-left: 5rem;
+    }
+
+    .intro__title {
+        font-size: 6rem;
+    }
+
+}
