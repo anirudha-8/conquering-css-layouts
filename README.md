@@ -1,4 +1,4 @@
-# 🚀 Conquering Responsive Layouts
+# 🚀 Conquering Responsive CSS Layouts
 
 Welcome to **Conquering Responsive Layouts**! This project is based on Kevin Powell's course, where you'll learn to build responsive websites with modern CSS. Get ready to master your layout skills! 💪
 

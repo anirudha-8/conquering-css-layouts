@@ -1,162 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conquering CSS Layouts - Final Project</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-    
-    <main>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Conquering CSS Layouts -- Final Project</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<main>
+			<nav class="navbar">
+				<div class="container">
+					<div class="flex">
+						<div class="logo">
+							<img src="./images/logo.svg" alt="Logo" />
+						</div>
+						<div>
+							<ul>
+								<li><a href="#">HOME</a></li>
+								<li><a href="#">ABOUT</a></li>
+								<li><a href="#">CONTACT</a></li>
+								<li><a href="#">SIGN IN</a></li>
+								<li>
+									<button class="btn"><a href="#">SIGN UP</a></button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
 
-        <nav class="navbar">
-            <div class="container">
-                <div class="flex">
-                    <div class="logo">
-                        <img src="./images/logo.svg" alt="Logo">
-                    </div>
-                    <div>
-                        <ul>
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">ABOUT</a></li>
-                            <li><a href="#">CONTACT</a></li>
-                            <li><a href="#">SIGN IN</a></li>
-                            <li><button class="btn"><a href="#">SIGN UP</a></button></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+			<header class="bg-purple">
+				<div class="container">
+					<div class="split">
+						<div>
+							<h1>
+								Responsive layouts <span>don't have to be a struggle</span>
+							</h1>
+						</div>
+						<div>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua
+							</p>
+							<button class="btn">I WANT TO LEARN</button>
+						</div>
+					</div>
+				</div>
+			</header>
 
-        <header class="bg-purple">
-            <div class="container">
-                <div class="split">
-                    <div>
-                        <h1>Responsive layouts <span>don't have to be a struggle</span></h1>
-                    </div>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua
-                        </p>
-                        <button class="btn">I WANT TO LEARN</button>
-                    </div>
-                </div>
-            </div>
-        </header>
+			<section class="bg-gray">
+				<div class="container">
+					<div class="split">
+						<div>
+							<h3>Mobile-first</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam.
+							</p>
+						</div>
+						<div>
+							<h3>Efficient</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam.
+							</p>
+						</div>
+						<div>
+							<h3>Done right</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <section class="bg-gray">
-            <div class="container">
-                <div class="split">
-                    <div>
-                        <h3>Mobile-first</h3>
-                        <p>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut
-                            enim ad minim veniam.</p>
-                    </div>
-                    <div>
-                        <h3>Efficient</h3>
-                        <p>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut
-                            enim ad minim veniam.</p>
-                    </div>
-                    <div>
-                        <h3>Done right</h3>
-                        <p>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut
-                            enim ad minim veniam.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+			<section>
+				<div class="container">
+					<div class="split">
+						<div>
+							<h3>It doesn't have to be so hard</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+							<div>
+								<img
+									class="main-img"
+									src="./images/main_image.jpg"
+									alt="main image"
+								/>
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+						</div>
+						<div>
+							<div class="bg-purple bg-purple--extra">
+								<h3>Break it down</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
+							<div class="bg-purple bg-purple--extra">
+								<h3>Work your way up</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua
+								</p>
+							</div>
+							<div class="bg-purple bg-purple--extra">
+								<h3></h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <section>
-            <div class="container">
-                <div class="split">
-                    <div>
-                        <h3>It doesn't have to be so hard</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                            enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        <div><img class="main-img" src="./images/main_image.jpg" alt="main image"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                            enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    </div>
-                    <div>
-                        <div class="bg-purple bg-purple--extra">
-                            <h3>Break it down</h3>
-                            <p>Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua.</p>
-                        </div>
-                        <div class="bg-purple bg-purple--extra">
-                            <h3>Work your way up</h3>
-                            <p>Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua</p>
-                        </div>
-                        <div class="bg-purple bg-purple--extra">
-                            <h3></h3>
-                            <p>Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="bg-purple">
-            <div class="container">
-                <h2>just scratching the surface</h2>
-                <div class="split">
-                    <div>
-                        <h4>About our company</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    </div>
-                    <div>
-                        <h4>Getting around</h4>
-                        <p>Home</p>
-                        <p>About</p>
-                        <p>Contact</p>
-                    </div>
-                    <div>
-                        <h4>Other things</h4>
-                        <p>Lorem ipsum</p>
-                        <p>dolor</p>
-                        <p>sit amet</p>
-                        <p>consectetur</p>
-                    </div>
-                    <div>
-                        <h4>And more</h4>
-                        <p>Lorem ipsum</p>
-                        <p>dolor</p>
-                        <p>sit amet</p>
-                        <p>consectetur</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-    </main>
-
-</body>
+			<footer class="bg-purple">
+				<div class="container">
+					<h2>just scratching the surface</h2>
+					<div class="split">
+						<div>
+							<h4>About our company</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam.
+							</p>
+						</div>
+						<div>
+							<h4>Getting around</h4>
+							<p>Home</p>
+							<p>About</p>
+							<p>Contact</p>
+						</div>
+						<div>
+							<h4>Other things</h4>
+							<p>Lorem ipsum</p>
+							<p>dolor</p>
+							<p>sit amet</p>
+							<p>consectetur</p>
+						</div>
+						<div>
+							<h4>And more</h4>
+							<p>Lorem ipsum</p>
+							<p>dolor</p>
+							<p>sit amet</p>
+							<p>consectetur</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</main>
+	</body>
 </html>
